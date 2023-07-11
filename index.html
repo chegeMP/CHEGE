@@ -1,0 +1,114 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chege Ventures</title>
+    <link rel="stylesheet" type="text/css" href="style1.css">
+        
+    </table>
+    <style>
+body{
+    margin: 0;
+    padding: 0;
+
+}
+.navbar{
+background-color: aqua;
+color: #19c1b3;
+padding: 28px;
+display: flex;
+justify-content: space-between;
+
+}
+.navbar a{
+    color: azure;
+    text-decoration: wavy;
+    margin-right: 13px;
+    font-size: medium;
+    transition: color 0.5s ease;
+}
+.navbar a:hover{color: #71e22b;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 5px;
+}
+.square{
+width: 180px;
+height: 220px;
+margin-bottom: 17px;
+border-radius: 20px;
+}
+#square1{
+    background-color: #19c1b3;
+}
+#square2{
+    background-color: #00c72b;
+}
+#square3{
+    background-color: #b92a8e;
+}
+#square4{
+    background-color: aquamarine;
+
+}
+#rectangle{
+    width: 1000px;
+    height: 100px;
+    background-color: rgb(84, 86, 112);
+    border-radius: 8px;
+    right: 0;
+
+}
+
+  </style>
+  
+</head>
+<body style="background-image:url(noma1.jpg) ;background-repeat: no-repeat; background-size: 100%;">
+    <div class="navbar">
+        <div class="navbar-brand">
+            <a href="#" class="background" ><b> Real estate Ventures with Chege</b></a>
+        </div>
+        <div class="navbar-links">
+            <a href="index2.html">Services</a>
+            <a href="index3.html">About</a>
+            <a href="index4.html">contact</a> 
+            <a href="index5.html">Base</a>
+            <a href="support.html">Support</a>
+ </div>
+ <div style="float:right;width:25%"></div>
+    </div>
+    <div class="container">
+        <div class="top-square">
+            <div id="square1" class="square"></div>
+            <div id="square2" class="square"></div>
+            
+        </div>
+        <div class="bottom-squares">
+            <div id="square3" class="square"></div>
+            <div id="square4" class="square"></div>
+            
+            </div>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+                
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" pattern="[0-9]{4}-[0-9]{3}-[0-9]{3}" required><br><br>
+                
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" minlength="4" required><br><br>
+                
+                <input type="submit">
+              </form>
+              
+        </body>
+</html>
